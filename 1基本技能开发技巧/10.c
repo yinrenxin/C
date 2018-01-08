@@ -208,7 +208,7 @@ int main(int argc, char *argv[])
 	{
 	  x1=i/10;
 	  y1=i%10;
-	  z1=10*y1+1;
+	  z1=10*y1+x1;
 	  //判断是否满足等式条件
 	  if (n+i==z+z1&&n!=z1)
 {
